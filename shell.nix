@@ -1,7 +1,7 @@
 let pkgs = import <nixpkgs> {};
 
 in pkgs.mkShell rec {
-  name = "kqstats";
+  name = "stinchbot";
 
   buildInputs = with pkgs; [
     nodejs-16_x
