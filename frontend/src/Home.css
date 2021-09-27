@@ -1,0 +1,57 @@
+.address {
+  content: "";
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.addressSuccess {
+  content: "";
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.addressFailure {
+  content: "";
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.roster a:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.roster a {
+  content: "";
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.roster a:active {
+  background-color: rgb(78, 78, 78);
+}

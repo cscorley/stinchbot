@@ -1,0 +1,13 @@
+{
+	"nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+	"spellright.language": [
+		"en"
+	],
+	"spellright.documentTypes": [
+		"ruby",
+		"markdown",
+		"latex",
+		"plaintext",
+		"typescriptreact"
+	]
+}

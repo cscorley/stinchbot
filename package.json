@@ -1,0 +1,28 @@
+{
+  "name": "stinchbot",
+  "version": "0.0.1",
+  "description": "stinch finder and poster",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "build": "cd frontend/ && npm install && npm run build",
+    "dev": "cd frontend/ && npm install && npm start"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "frontend/node_modules"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cscorley/stinchbot.git"
+  },
+  "keywords": [
+    "killer queen"
+  ],
+  "license": "MIT"
+}

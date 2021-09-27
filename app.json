@@ -1,0 +1,17 @@
+{
+  "name": "stinchbot",
+  "description": "stinch finder and poster",
+  "scripts": {},
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
